@@ -1,0 +1,46 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ValidaResoluciones</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+        <div class="collapse navbar-collapse" id="navbarColor02">
+            <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+                <a class="nav-link" [routerLink]="['/']">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Resolución 202</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" [routerLink]="['/Resolucion202']">Validar Archivo</a>
+                </div>      
+            </li>   
+            <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Cuenta de Alto Costo</a>    
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Cáncer (resolución 247)</a>
+                    <a class="dropdown-item" href="#">ERC (resolución 3442)</a>
+                    <a class="dropdown-item" href="#">VIH (resolución 2338)</a>
+                    <a class="dropdown-item" href="#">Hemofilia (resolución 0123)</a>
+                    <a class="dropdown-item" href="#">Artritis reumatoide (resolución 1393)</a>
+                </div>
+            </li>-->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ayuda</a>    
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">PQRS</a>
+                    <a class="dropdown-item" href="#">Acerca de</a>
+                </div>
+            </li>
+            </ul>
+            <div class="nav-bar me auto" id="navbarColor02">
+               <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" [routerLink]="['/login']">Iniciar sesión</a>
+                    </li>
+               </ul>
+            </div>
+        </div>
+    </div>
+</nav>
