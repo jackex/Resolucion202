@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { ComponentsComponent } from './components/components.component';
 import { ComponentsModule } from './components/components.module';
+import { PlantillasComponent } from './components/plantillas/plantillas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ComponentsComponent
+    ComponentsComponent,
+    PlantillasComponent
   ],
   imports: [
     BrowserModule,

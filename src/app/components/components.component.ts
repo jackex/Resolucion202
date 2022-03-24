@@ -27,7 +27,7 @@ import { DescargarErrores } from '../res202/DescargarErrores/DescargarErrores';
 
 
 @Component({
-  selector: 'Resolucion202',
+  selector: 'Validador202',
   templateUrl: './components.component.html',
   styleUrls: ['./components.component.scss']
 })
